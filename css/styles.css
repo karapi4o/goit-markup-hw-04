@@ -139,7 +139,7 @@ img {
 
 .main-hero {
   max-width: 1440px;
-
+  margin: 0 auto;
   background: var(--base-color);
   padding: 188px 0;
   text-align: center;
@@ -377,15 +377,16 @@ img {
   align-items: center;
 }
 
+.customers-tipe-icon:focus,
+.customers-tipe-icon:hover {
+  fill: var(--active-color);
+  border-color: var(--active-color);
+}
+
 .customers-icon {
   width: 104px;
   height: 56px;
-  fill: #8e8f99;
-}
-
-.customers-icon:focus,
-.customers-icon:hover {
-  fill: var(--active-color);
+  fill: var(--customer-border-color);
 }
 
 .main {
