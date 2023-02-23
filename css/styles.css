@@ -375,18 +375,19 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.customers-tipe-icon:focus,
-.customers-tipe-icon:hover {
-  fill: var(--active-color);
-  border-color: var(--active-color);
+  color: var(--customer-border-color);
 }
 
 .customers-icon {
   width: 104px;
   height: 56px;
-  fill: var(--customer-border-color);
+  fill: currentColor;
+}
+
+.customers-tipe-icon:focus,
+.customers-tipe-icon:hover {
+  color: var(--active-color);
+  border-color: var(--active-color);
 }
 
 .main {
